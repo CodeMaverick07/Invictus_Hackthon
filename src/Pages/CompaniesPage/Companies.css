@@ -1,0 +1,75 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+.cards-container {
+    padding: 2rem;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+.company-card {
+    padding: 1rem;
+    min-height: 375px;
+    width: 400px;
+    box-shadow: 2px 2px 8px grey;
+    justify-content: space-between;
+}
+.company-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: white;
+}
+.company-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.company-info {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.company-name {
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+.company-location {
+    color: #414141;
+    font-weight: 400;
+}
+
+.company-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.company-content {
+    padding: 2rem 0 0 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+.company-website a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+}

@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "XYZ Tech",
+      "description": "Innovating technology solutions for a connected world.",
+      "website-link": "http://www.xyztech.com",
+      "location": "Silicon Valley, CA",
+      "category": "💻 Technology"
+    },
+    {
+      "id": 2,
+      "name": "ABC Innovations",
+      "description": "Pioneering in cutting-edge innovations across industries.",
+      "website-link": "http://www.abcinnovations.com",
+      "location": "New York, NY",
+      "category": "🚀 Innovation"
+    },
+    {
+      "id": 3,
+      "name": "Global Dynamics Inc.",
+      "description": "Driving global progress through dynamic solutions.",
+      "website-link": "http://www.globaldynamicsinc.com",
+      "location": "London, UK",
+      "category": "🌐 Global"
+    },
+    {
+      "id": 4,
+      "name": "Tech Innovators Co.",
+      "description": "Transforming ideas into technological breakthroughs.",
+      "website-link": "http://www.techinnovatorsco.com",
+      "location": "Bangalore, India",
+      "category": "🔧 Tech"
+    },
+    {
+      "id": 5,
+      "name": "Future Systems Ltd.",
+      "description": "Building the future through advanced systems integration.",
+      "website-link": "http://www.futuresystemsltd.com",
+      "location": "Tokyo, Japan",
+      "category": "🌈 Innovation"
+    },
+    {
+      "id": 6,
+      "name": "Infinite Solutions Group",
+      "description": "Providing infinite solutions for complex challenges.",
+      "website-link": "http://www.infinitesolutionsgroup.com",
+      "location": "Sydney, Australia",
+      "category": "🔍 Technology"
+    },
+    {
+      "id": 7,
+      "name": "Quantum Dynamics Corporation",
+      "description": "Navigating the quantum realm of possibilities.",
+      "website-link": "http://www.quantumdynamicscorp.com",
+      "location": "Berlin, Germany",
+      "category": "🔬 Science"
+    },
+    {
+      "id": 8,
+      "name": "Digital Frontier Enterprises",
+      "description": "Expanding the digital frontier with innovative solutions.",
+      "website-link": "http://www.digitalfrontierenterprises.com",
+      "location": "San Francisco, CA",
+      "category": "🌐 Digital"
+    },
+    {
+      "id": 9,
+      "name": "Global Innovate Labs",
+      "description": "Fostering innovation on a global scale through research.",
+      "website-link": "http://www.globalinnovatelabs.com",
+      "location": "Singapore",
+      "category": "💡 Innovation"
+    },
+    {
+      "id": 10,
+      "name": "Smart Solutions Inc.",
+      "description": "Creating smart solutions for a smarter world.",
+      "website-link": "http://www.smartsolutionsinc.com",
+      "location": "Austin, TX",
+      "category": "🤖 Technology"
+    }
+  ]

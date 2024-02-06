@@ -1,0 +1,24 @@
+.container-404 {
+    display: inline;
+    /* background: #f3f3f3; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.55rem;
+    height: 80vh;
+}
+
+.error {
+    font-size: 2rem;
+    color: #1a2237;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    margin-left: 1rem;
+}
+
+.container-404 a {
+    font-weight: 600;
+    text-decoration: none;
+}

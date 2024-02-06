@@ -1,0 +1,160 @@
+.profile-container {
+    border: 2px solid rgb(17 24 39);
+    border-radius: 25px;
+    width: 80vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.profile-info {
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    padding: 0.5rem;
+    gap: 2rem;
+}
+
+.profile-image {
+    min-width: 120px;
+    height: 120px;
+    /* overflow: hidden; */
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-info-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.profile-contact {
+    display: flex;
+    justify-content: space-between;
+}
+.profile-email,
+.profile-mobile,
+.profile-location,
+.profile-desc {
+    font-size: 1.2rem;
+}
+
+.profile-skills {
+    display: flex;
+    gap: 6px;
+    padding-block: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #4d48e0;
+    color: white;
+    padding: 0.2rem 0.7rem;
+    font-weight: 100;
+    border-radius: 10px;
+}
+
+.skill-name {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.profile-cert {
+    display: flex;
+    gap: 6px;
+    padding-block: 0.4rem;
+    flex-wrap: wrap;
+}
+.certifications {
+    background: #4e48e0;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    font-weight: 100;
+    border-radius: 10px;
+}
+.cert-name {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.profile-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-field-wrapper {
+    font-size: 1.2rem;
+    padding: 1rem;
+    min-height: 100px;
+    min-width: 50%;
+    /* background-color: grey; */
+    /* border: 2px solid lightgrey; */
+}
+.profile-title-1 {
+    font-size: 1.1rem;
+    align-self: center;
+}
+.field-title {
+    font-weight: bold;
+}
+.profile-field {
+    background-color: rgb(228, 237, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.profile-links {
+    font-size: 1.12rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: left;
+}
+
+.profile-links a {
+    text-decoration: none;
+}
+
+.profile-links a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.button-container button {
+    background-color: #4d48e0;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+}
+
+.button-container button:hover {
+    border: 2px solid #4d48e0;
+}
+
+@media screen and (max-width: 850px) {
+    .profile-contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .profile-content {
+        justify-content: center;
+    }
+    .profile-field-wrapper {
+        min-width: 80%;
+    }
+}
